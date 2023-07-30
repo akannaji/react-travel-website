@@ -28,34 +28,34 @@ function Footer() {
             <div className='footer-link-wrapper'>
                 <div class='footer-link-items'>
                     <h2>About Us</h2>
-                    <Link to='/sign-up'>How it works</Link>
-                    <Link to='/'>Testimonials</Link>
-                    <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of Service</Link>
+                    <Link to={process.env.PUBLIC_URL + '/sign-up'}>How it works</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Testimonials</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Careers</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Investors</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Terms of Service</Link>
                 </div>
                 <div class='footer-link-items'>
                     <h2>Contact Us</h2>
-                    <Link to='/'>Contact</Link>
-                    <Link to='/'>Support</Link>
-                    <Link to='/'>Destinations</Link>
-                    <Link to='/'>Sponsorships</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Contact</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Support</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Destinations</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Sponsorships</Link>
                 </div>
             </div>
             <div className='footer-link-wrapper'>
                 <div class='footer-link-items'>
                     <h2>Videos</h2>
-                    <Link to='/'>Submit Video</Link>
-                    <Link to='/'>Ambassadors</Link>
-                    <Link to='/'>Agency</Link>
-                    <Link to='/'>Influencer</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Submit Video</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Ambassadors</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Agency</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Influencer</Link>
                 </div>
                 <div class='footer-link-items'>
                     <h2>Social Media</h2>
-                    <Link to='/'>Instagram</Link>
-                    <Link to='/'>Facebook</Link>
-                    <Link to='/'>Youtube</Link>
-                    <Link to='/'>Twitter</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Instagram</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Facebook</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Youtube</Link>
+                    <Link to={process.env.PUBLIC_URL + '/'}>Twitter</Link>
                 </div>
             </div>
         </div>
@@ -70,35 +70,35 @@ function Footer() {
                 <div className='social-icons'>
                     <Link 
                         className='social-icon-link facebook' 
-                        to='/' 
+                        to={process.env.PUBLIC_URL + '/'} 
                         target='_blank' 
                         aria-label='facebook'>
                         <i className='fab fa-facebook-f' />
                     </Link>
                     <Link 
                         className='social-icon-link instagram' 
-                        to='/' 
+                        to={process.env.PUBLIC_URL + '/'} 
                         target='_blank' 
                         aria-label='Instagram'>
                         <i className='fab fa-instagram' />
                     </Link>
                     <Link 
                         className='social-icon-link youtube' 
-                        to='/' 
+                        to={process.env.PUBLIC_URL + '/'} 
                         target='_blank' 
                         aria-label='Youtube'>
                         <i className='fab fa-youtube' />
                     </Link>
                     <Link 
                         className='social-icon-link twitter' 
-                        to='/' 
+                        to={process.env.PUBLIC_URL + '/'} 
                         target='_blank' 
                         aria-label='Twitter'>
                         <i className='fab fa-twitter' />
                     </Link>
                     <Link 
                         className='social-icon-link linkedin' 
-                        to='/' 
+                        to={process.env.PUBLIC_URL + '/'} 
                         target='_blank' 
                         aria-label='LinkedIn'>
                         <i className='fab fa-linkedin' />
